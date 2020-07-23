@@ -110,9 +110,10 @@ findsource() {
 }
 
 alias gg='git grep'
-alias ios='cd ~/Documents/xamarin-macios/xamarin-macios'
-alias tests='cd ~/Documents/xamarin-macios/xamarin-macios/tests'
-alias wiki='cd ~/Documents/xamarin-macios/xamarin-macios.wiki/xcode12'
-alias dot='cd ~/Documents/xamarin-macios/dot'
+alias ios='~/Documents/xamarin-macios/xamarin-macios'
+alias tests='~/Documents/xamarin-macios/xamarin-macios/tests'
+alias wiki='~/Documents/xamarin-macios/xamarin-macios.wiki/xcode12'
+alias dot='~/Documents/xamarin-macios/dot'
 alias editzsh='sudo vim ~/.zshrc'
-alias savezsh='sudo cp ~/.zshrc ~/Documents/xamarin-macios/dot && ~/Documents/xamarin-macios/dot git add * && ~/Documents/xamarin-macios/dot && git commit -m "update" && ~/Documents/xamarin-macios/dot git push '
+alias savezsh='sudo cp ~/.zshrc ~/Documents/xamarin-macios/dot && ~/Documents/xamarin-macios/dot && git add .zshrc && gst && git commit -m "update" && gst &&  ~git push'
+alias applyzsh='. ~/.zshrc'
