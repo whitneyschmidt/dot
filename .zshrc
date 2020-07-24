@@ -115,6 +115,7 @@ savezsh() {
 
 alias gg='git grep'
 alias ios='~/Documents/xamarin-macios/xamarin-macios'
+alias src='~/Documents/xamarin-macios/xamarin-macios/src'
 alias tests='~/Documents/xamarin-macios/xamarin-macios/tests'
 alias wiki='~/Documents/xamarin-macios/xamarin-macios.wiki/xcode12'
 alias dot='~/Documents/xamarin-macios/dot'
