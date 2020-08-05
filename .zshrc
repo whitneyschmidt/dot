@@ -106,7 +106,7 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 
 # Search for source file in Xcode headers
 findsource() {
-	grep -R -s --color $1 /Applications/Xcode_12.0.0-beta3.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
+	grep -R -s --color $1 /Applications/Xcode_12.0.0-beta4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/
 }
 
 savezsh() {
